@@ -19,4 +19,6 @@ def factorial(number):
   return product
 
 def combination(n, r):  # do not change this line
-  pass  # delete the word pass when you start writing your code
+ multiplication = factorial(n-r) * factorial(r)
+ total = factorial(n) / multiplication
+ return total
